@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/layout/Navigation";
 import HomePage from "./components/pages/HomePage";
+import ContactPage from "./components/pages/ContactPage";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         {/* <Route path="/teachers" element={<TeachersPage />} /> */}
         {/* <Route path="/faq" element={<FaqPage />} /> */}
-        {/* <Route path="/contact" element={<ContactPage />} /> */}
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </div>
   );
